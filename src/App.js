@@ -1,8 +1,11 @@
-import React from "react"
+import React from "react";
+import Timer from "./components/Timer.js";
+import { useState, useEffect } from "react";
+
 function App() {
   return (
     <div className="App">
-      <h1>My React App</h1>
+      <Timer />
     </div>
   );
 }
